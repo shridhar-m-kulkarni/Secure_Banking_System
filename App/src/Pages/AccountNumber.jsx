@@ -3,7 +3,6 @@ import UserLogin from "./UserLogin";
 
 function AccountNumber() {
 const location = useLocation();
-console.log(location);
 const navigate = useNavigate();
 
 const loginNav = ()=>{

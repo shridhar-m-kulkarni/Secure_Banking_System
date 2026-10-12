@@ -21,7 +21,7 @@ function AdminLogin() {
   }
   )
 
-  console.log(AdimnSend);
+  
   if(AdimnSend.data.message === true){
     navigate("/admin-page")
   }

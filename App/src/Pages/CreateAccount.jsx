@@ -92,7 +92,7 @@ function CreateAccount() {
       } = formData;
 
 
-      console.log("Data sending to backend:", userData);
+     
 
 
       // Send data to Express
@@ -103,7 +103,7 @@ function CreateAccount() {
       );
 
 
-      console.log("Server Response:", response.data);
+   
       
       const accountNumber = response.data.accountNumber
       alert("Account created successfully!");

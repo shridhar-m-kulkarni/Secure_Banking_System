@@ -45,7 +45,7 @@ useEffect(()=>{
             withCredentials: true
           }
     )
-    console.log(getData);
+   
     setAccountHolderName(getData.data.FullName)
     setTotalAmount(getData.data.TotalAmount)
     setTotalCredit(getData.data.TotalCredited)
