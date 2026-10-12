@@ -6,4 +6,5 @@ Admin Login Id : ADM100
 Admin Password : Admin@1234
 <br>
 => Credit and Debit to user account is allowed by only Admin.
+<br>
 => User can only check the Available balance currently, further things we are working on it will be updated soon.
