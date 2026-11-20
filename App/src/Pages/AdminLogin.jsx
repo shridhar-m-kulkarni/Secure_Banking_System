@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "../Css/Admin.css";
 import axios from "axios";
@@ -8,6 +8,10 @@ function AdminLogin() {
 
   const [adminId, setAdminId] = useState("");
   const [password, setPassword] = useState("");
+
+  useEffect(() => {
+    alert('Admin Username : "ADM100" | Admin Password : "Admin@1234"')
+}, []);
 
 
   const AdminLogin = async() =>{

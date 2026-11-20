@@ -160,7 +160,9 @@ function UserLogin() {
           <div className="create-account">
             <p>Don't have an account?</p>
 
-            <a href="/register">
+            <a style={{cursor:"pointer"}} onClick={()=>{
+              navigate('/create-account')
+            }}>
               Open a New Account
             </a>
           </div>
